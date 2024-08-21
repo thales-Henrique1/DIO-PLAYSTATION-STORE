@@ -1,0 +1,34 @@
+.card-preco-container{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+    color: white;
+    font-family:  Calibri;
+}
+.card-preco-title{
+    margin-bottom: 3px;
+}
+.card-preco-valor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.card-preco-valor-console{
+    display: flex;
+    flex-direction: row;
+
+}
+.card-preco-valor-console >span{
+    font-weight: bolder;
+    margin-right: 10px;
+    color: antiquewhite;
+}
